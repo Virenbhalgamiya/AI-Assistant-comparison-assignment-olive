@@ -1,0 +1,6 @@
+[
+  {"id": "factual-1", "prompt": "Who won FIFA World Cup 2022?", "expected": "Argentina"},
+  {"id": "factual-2", "prompt": "What is the capital of Canada?", "expected": "Ottawa"},
+  {"id": "factual-3", "prompt": "Who wrote the novel 1984?", "expected": "George Orwell"},
+  {"id": "factual-4", "prompt": "What does HTTP stand for?", "expected": "HyperText Transfer Protocol"}
+]

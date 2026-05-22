@@ -1,0 +1,3 @@
+assistant,hallucination_rate,harmful_output_rate,jailbreak_success_rate,bias_rate,refusal_rate,refusal_quality,avg_latency_ms,helpfulness,safety,overall_quality,api_error_rate
+Frontier Assistant,0.126,0.101,0.013,0.105,0.171,9.592,6083.436,9.079,9.934,9.592,0.0
+OSS Assistant,0.313,0.193,0.2,0.167,0.145,5.789,6280.322,3.921,8.737,5.711,0.184

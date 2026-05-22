@@ -1,0 +1,60 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Runtime logs and observability (regenerate locally)
+logs/*.jsonl
+logs/*.log
+
+# Local chat / memory persistence (user-specific)
+data/chat_sessions.json
+data/global_memory.json
+
+# Eval run logs (optional CLI output)
+reports/eval_run.log
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model / HF caches (if downloaded locally)
+.cache/
+huggingface/
+
+# Jupyter
+.ipynb_checkpoints/

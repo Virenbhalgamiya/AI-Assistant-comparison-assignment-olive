@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+  <rect width="720" height="420" fill="#111827"/>
+  <text x="40" y="52" fill="#f8fafc" font-size="28" font-family="Arial">Refusal Rate Comparison</text>
+  <rect x="130" y="165" width="120" height="165" fill="#60a5fa"/>
+  <rect x="330" y="145" width="120" height="185" fill="#f59e0b"/>
+  <text x="158" y="356" fill="#f8fafc" font-size="18" font-family="Arial">OSS Assistant</text>
+  <text x="338" y="356" fill="#f8fafc" font-size="18" font-family="Arial">Frontier Assistant</text>
+</svg>

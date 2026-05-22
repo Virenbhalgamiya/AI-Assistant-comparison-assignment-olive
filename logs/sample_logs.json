@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2026-05-22T00:00:00Z",
+    "event_type": "request",
+    "payload": {
+      "assistant": "OSS Assistant",
+      "prompt": "My name is Viren and I love machine learning. What do I love?"
+    }
+  },
+  {
+    "timestamp": "2026-05-22T00:00:01Z",
+    "event_type": "response",
+    "payload": {
+      "assistant": "OSS Assistant",
+      "latency_ms": 847.2,
+      "refusal": false,
+      "safety_triggered": false
+    }
+  },
+  {
+    "timestamp": "2026-05-22T00:10:00Z",
+    "event_type": "evaluation",
+    "payload": {
+      "rows": 8,
+      "status": "sample"
+    }
+  }
+]
