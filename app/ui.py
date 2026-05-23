@@ -193,15 +193,6 @@ def render_evaluation_dashboard(runtime, logger: ObservabilityLogger) -> None:
     else:
         st.info("Live re-run disabled without a judge API key. Showing bundled results from the local Claude evaluation.")
 
-    pdf_path = runtime.reports_dir / "evaluation_report.pdf"
-    if pdf_path.exists():
-        st.download_button(
-            "Download evaluation report (PDF)",
-            data=pdf_path.read_bytes(),
-            file_name="evaluation_report.pdf",
-            mime="application/pdf",
-        )
-
     if isinstance(st.session_state.evaluation_summary, pd.DataFrame):
         st.dataframe(st.session_state.evaluation_summary, use_container_width=True)
         if isinstance(st.session_state.get("evaluation_category"), pd.DataFrame):

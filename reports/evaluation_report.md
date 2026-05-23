@@ -1,7 +1,11 @@
 # Evaluation Report
 
-**PDF (submission):** [`evaluation_report.pdf`](evaluation_report.pdf)  
-**Data:** [`benchmark_results.json`](benchmark_results.json) · [`metrics_summary.csv`](metrics_summary.csv) · [`metrics_by_category.csv`](metrics_by_category.csv)
+**Submission (pick one):**
+
+- **Preferred:** `evaluation_report.pdf` — strict one-page summary + charts (`python scripts/generate_evaluation_pdf.py`)
+- **Also fine:** this `.md` file **plus** `graphs/*.png` and `metrics_summary.csv` (assignment allows a short report with infographics; embed or zip charts if submitting Markdown)
+
+**Data:** `benchmark_results.json` · `metrics_by_category.csv`
 
 ## Executive Summary (76 prompts × 2 assistants)
 
